@@ -19,10 +19,13 @@
 3. Klonirati remote direktorijum na jedan od dva nacina:
 
 a) ```git init```
+
 	```git remote add origin git@github.com:saravukobrat/QAteam.git```
+	
 	```git pull origin master```
 
 b) ```git clone git@github.com:saravukobrat/QAteam.git```
+
 (Uvek mozemo proveriti sa ```git remote -v``` da li smo odredili origin)
 
 4. Napraviti file DocQA.txt (```touch```)
@@ -44,10 +47,13 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 3. Klonirati remote direktorijum na jedan od dva nacina:
 
 a)	```git init```
+
 	```git remote add origin git@github.com:saravukobrat/QAteam.git```
+	
 	```git pull origin master```
 
 b)	```git clone git@github.com:saravukobrat/QAteam.git```	
+
 (Uvek mozemo proveriti sa ```git remote -v``` da li smo odredili origin)
 
 4. Napraviti novu granu featureT sa ```git checkout -b featureT```
@@ -67,10 +73,13 @@ b)	```git clone git@github.com:saravukobrat/QAteam.git```
 3. Klonirati remote direktorijum na jedan od dva nacina:
 
 a)	```git init```
+
 	```git remote add origin git@github.com:saravukobrat/QAteam.git```
+	
 	```git pull origin master```
 
 b)	```git clone git@github.com:saravukobrat/QAteam.git```	
+
 (Uvek mozemo proveriti sa ```git remote -v``` da li smo odredili origin)
 
 4. Napraviti novu granu featureTij sa ```git checkout -b featureTij```
@@ -92,10 +101,13 @@ b)	```git clone git@github.com:saravukobrat/QAteam.git```
 3. Klonirati remote direktorijum na jedan od dva nacina:
 
 a)	```git init```
+
 	```git remote add origin git@github.com:saravukobrat/QAteam.git```
+	
 	```git pull origin master```
 
 b)	```git clone git@github.com:saravukobrat/QAteam.git```	
+
 (Uvek mozemo proveriti sa ```git remote -v``` da li smo odredili origin)
 
 4. Napraviti novu granu featureR sa ```git checkout -b featureR```
