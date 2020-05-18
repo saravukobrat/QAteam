@@ -1,7 +1,7 @@
-# H1 GitHub Zadatak 2.
-## H2 Pull, Push, Approve PR
+# GitHub Zadatak 2.
+## Pull, Push, Approve PR
 
-### H3 Zadatak Sara:
+### Zadatak Sara:
 1. Kreirati repozitorijum (repo) na Githubu ‘QAteam’
 2. Neka bude Public
 3. Otici na Komandnu liniju i odrediti lokaciju gde ce repo da bude smesten (e.g Desktop, Documents)
@@ -13,7 +13,7 @@
 
 
 
-### H3 Zadatak Bosko:
+### Zadatak Bosko:
 1. Posetiti [https://github.com/saravukobrat/QAteam]
 2. Otici na Komandnu liniju i odrediti na kom mestu ces klonirati repo sa githuba
 3. Klonirati remote direktorijum na jedan od dva nacina:
@@ -41,7 +41,7 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 14. Moze a i ne mora da se obrise grana featureB
 
 
-### H3 Zadatak Tamara:
+### Zadatak Tamara:
 1. Posetiti [ https://github.com/saravukobrat/QAteam]
 2. Otici na Komandnu liniju i odrediti na kom mestu ces klonirati repo sa githuba
 3. Klonirati remote direktorijum na jedan od dva nacina:
@@ -67,7 +67,7 @@ b)	```git clone git@github.com:saravukobrat/QAteam.git```
 12. Squash and merge, pa Confirm squash and merge
 13. Moze a i ne mora da se obrise grana featureT
 
-### H3 Zadatak Tijana:
+### Zadatak Tijana:
 1. Posetiti [https://github.com/saravukobrat/QAteam]
 2. Otici na Komandnu liniju i odrediti na kom mestu ces klonirati repo sa githuba
 3. Klonirati remote direktorijum na jedan od dva nacina:
