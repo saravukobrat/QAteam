@@ -140,7 +140,7 @@ Tijana
 Relja
 
 
-## H2 Extra Zadacic
+## H2 Extra Zadatak
 ### H3 Ovaj zadatak je za vezbanje.
 
 1. Kreirati folder lokalno, ili iskoristite isti kao iz vaseg zadatka
@@ -159,7 +159,6 @@ Relja
 
 8. Proveriti da li se vidi screenshot
 
-## H2 Ispruzite desnu ruku, potapsite se po levom ramenu, jer ste odradili odlican posao! 
 
 
 
