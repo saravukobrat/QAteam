@@ -140,7 +140,26 @@ Tijana
 Relja
 
 
+## H2 Extra Zadacic
+### H3 Ovaj zadatak je za vezbanje.
 
+1. Kreirati folder lokalno, ili iskoristite isti kao iz vaseg zadatka
+
+2. U taj folder cemo ubaciti screenshot istorije Terminala i komandi
+
+3. Pokrenite ```history >> <name of the file>_githistory.txt```
+
+4. Sa komandom ```ls -a``` videmoce kreiran novi fajl Imefajla_githistory.txt
+
+5. ```cat Imefajla_githistory.txt``` i napraviti screenshot 
+
+6. Dodati ovaj screenshot u folder i sa vase vec kreirane grane pushovati na Github
+
+7. Ponoviti korake za squash and merge PR
+
+8. Proveriti da li se vidi screenshot
+
+## H2 Ispruzite desnu ruku, potapsite se po levom ramenu, jer ste odradili odlican posao! 
 
 
 
@@ -289,16 +308,24 @@ Relja
 
 
 ## H2 Extra work
-This is extra work that all of us can do for practice purpose.
+### H3 This is extra work that all of us can do for practice purpose.
 
-Create a folder locally
+1. Create a folder locally
 
-In that folder you can put a screenshot of Terminal history 
+2. In that folder you can put a screenshot of Terminal history 
 
-Run the command ```history >> <name of the file>_githistory.txt```
+3. Run the command ```history >> <name of the file>_githistory.txt```
 
-Run the command ls and you will see new created file
+4. Run the command ls and you will see new created file
 
-```cat name of the file_githistory.txt``` and make a screenshot
+5. ```cat name of the file_githistory.txt``` and make a screenshot
 
-Add this screenshot into the folder and push it through a new branch to remote repository
+6. Add this screenshot into the folder and push it through a new branch to remote repository
+
+7. On Github repeat stepst to squash and merge new pull request
+
+8. After this make sure is the screenshot visible
+
+
+## h2 After all make a big smile on your face, because you did amazing work!
+
