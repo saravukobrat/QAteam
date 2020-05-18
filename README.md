@@ -141,7 +141,7 @@ Relja
 
 
 ## H2 Extra Zadatak
-### H3 Ovaj zadatak je za vezbanje.
+### H3 Ovaj zadatak je za one koje zele dodatno da izvezbaju i utvrde vec steceno znanje.
 
 1. Kreirati folder lokalno, ili iskoristite isti kao iz vaseg zadatka
 
@@ -315,7 +315,7 @@ Relja
 
 3. Run the command ```history >> <name of the file>_githistory.txt```
 
-4. Run the command ls and you will see new created file
+4. Run the command ```ls -a``` and you will see new created file
 
 5. ```cat name of the file_githistory.txt``` and make a screenshot
 
