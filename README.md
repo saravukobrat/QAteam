@@ -3,7 +3,7 @@
 
 ### Exercise  1 
 ##### (This one is done, and QAteam repo is already created ```https://github.com/saravukobrat/QAteam```):
-1. Create repository (repo) on Githubu named ‘QAteam’
+1. Create repository (repo) on Github named ‘QAteam’
 2. Set to be Public
 3. Go to Command line and find location where repo will be cloned (e.g Desktop, Documents)
 4. Clone the repo : ```git clone git@github.com:saravukobrat/QAteam.git```
@@ -14,7 +14,7 @@
 
 
 
-### H3 Exercise 2:
+### Exercise 2:
 1. Visit [https://github.com/saravukobrat/QAteam]
 2. Go to Command line and find location where you will clone the remote repo
 3. Clone the repository locally using one of the following method:
@@ -42,7 +42,7 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 14. You may or may not delete the branch featureB
 
 
-### H3 Exercise 3:
+### Exercise 3:
 1. Visit [https://github.com/saravukobrat/QAteam]
 2. Go to Command line and find location where you will clone the remote repo
 3. Clone the repository locally using one of the following method:
@@ -68,7 +68,7 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 12. Squash and merge, and Confirm squash and merge
 13. You may or may not delete the branch featureT
 
-### H3 Exercise 4:
+### Exercise 4:
 1. Visit [https://github.com/saravukobrat/QAteam]
 2. Go to Command line and find location where you will clone the remote repo
 3. Clone the repository locally using one of the following method:
@@ -95,7 +95,7 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 13. Squash and merge, and Confirm squash and merge
 14. You may or may not delete the branch featureTij
 
-### H3 Excercise 5:
+### Excercise 5:
 1. Visit [https://github.com/saravukobrat/QAteam]
 2. Go to Command line and find location where you will clone the remote repo
 3. Clone the repository locally using one of the following method:
@@ -122,7 +122,10 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 13. Squash and merge, and Confirm squash and merge
 14. You may or may not delete the branch featureR
 
-### H3 Result:
+### Result:
+
+##### If we write down the text from excercises, this result will appear. If we put some other text in our DocQA file, then the result will be different.
+
 Go to Command line
 
 run this command ```git clone git@github.com:saravukobrat/first.git```
@@ -140,8 +143,8 @@ Tijana
 Relja
 
 
-## H2 Extra work
-### H3 This is extra work that all of us can do for practice purpose.
+## Extra work
+### This is extra work that all of us can do for practice purpose.
 
 1. Create a folder locally
 
@@ -160,7 +163,7 @@ Relja
 8. After this make sure is the screenshot visible
 
 
-## h2 After all make a big smile, because you did amazing work!
+## After all make a big smile, because you did amazing work!
 
 
 
@@ -263,7 +266,7 @@ b)	```git clone git@github.com:saravukobrat/QAteam.git```
 14. Moze a i ne mora da se obrise grana featureTij
 
 
-### H3 Zadatak Relja:
+### Zadatak Relja:
 1. Posetiti [https://github.com/saravukobrat/QAteam]
 2. Otici na Komandnu liniju i odrediti na kom mestu ces klonirati repo sa githuba
 3. Klonirati remote direktorijum na jedan od dva nacina:
@@ -290,7 +293,7 @@ b)	```git clone git@github.com:saravukobrat/QAteam.git```
 12. Squash and merge, pa Confirm squash and merge
 13. Moze a i ne mora da se obrise grana featureR
 
-### H3 Rezultat:
+### Rezultat:
 Kada odemo na command liniju
 
 i odradimo ```git clone git@github.com:saravukobrat/first.git```
@@ -308,8 +311,8 @@ Tijana
 Relja
 
 
-## H2 Extra Zadatak
-### H3 Ovaj zadatak je za one koje zele dodatno da izvezbaju i utvrde vec steceno znanje.
+## Extra Zadatak
+### Ovaj zadatak je za one koje zele dodatno da izvezbaju i utvrde vec steceno znanje.
 
 1. Kreirati folder lokalno, ili iskoristite isti kao iz vaseg zadatka
 
