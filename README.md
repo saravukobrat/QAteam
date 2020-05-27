@@ -2,7 +2,7 @@
 ## Pull, Push, Approve PR
 
 ### Exercise  1 
-##### (This one is done, and QAteam repo is already created ```https://github.com/saravukobrat/QAteam```):
+##### (This one is done, and QAteam repo is already created [https://github.com/saravukobrat/QAteam]):
 1. Create repository (repo) on Github named ‘QAteam’
 2. Set to be Public
 3. Go to Command line and find location where repo will be cloned (e.g Desktop, Documents)
