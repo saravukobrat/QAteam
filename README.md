@@ -1,8 +1,8 @@
-# H1 GitHub Exercise 2.
-## H2 Pull, Push, Approve PR
+# GitHub Exercise 2.
+## Pull, Push, Approve PR
 
-### H3 Exercise  1 
-##### H5 (this one is done, and QAteam repo is already created ```https://github.com/saravukobrat/QAteam```):
+### Exercise  1 
+##### (This one is done, and QAteam repo is already created ```https://github.com/saravukobrat/QAteam```):
 1. Create repository (repo) on Githubu named ‘QAteam’
 2. Set to be Public
 3. Go to Command line and find location where repo will be cloned (e.g Desktop, Documents)
