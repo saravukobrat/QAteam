@@ -31,7 +31,7 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 
 4. Create file DocQA.txt (```touch```)
 5. Create new branch featureB ```git checkout -b featureB```
-6. In file DocQA.txt write text ‘’Bosko” (This is only an example of text, you can type something else, but in order to present cenrtain result which you can find at the end of the page, we can try with these lines of text)
+6. In file DocQA.txt write text ‘’Bosko” (This is only an example of text, you can type something else, but in order to present certain result which you can find at the end of the page, we should add these lines of text)
 7. Commit the change with message ‘Bosko commit’
 8. ```git push --set-upstream origin featureB```
 9. On Github you will see New pull request
