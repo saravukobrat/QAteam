@@ -1,3 +1,171 @@
+# H1 GitHub Exercise 2.
+## H2 Pull, Push, Approve PR
+
+### H3 Exercise  1 
+##### H5 (this one is done, and QAteam repo is created ```https://github.com/saravukobrat/QAteam```):
+1. Create repository (repo) on Githubu named ‘QAteam’
+2. Set to be Public
+3. Go to Command line and find location where repo will be cloned (e.g Desktop, Documents)
+4. Clone the repo : ```git clone git@github.com:saravukobrat/QAteam.git```
+5. Go to the cloned repo and check what's in it with ```ls -a``` 
+6. Create and commit README.md file with commit message “First commit”
+7. ```git push```
+8. Go to Github/QAteam/settings/Manage access and add vesnaatwork as collaborator
+
+
+
+### H3 Exercise 2:
+1. Visit [https://github.com/saravukobrat/QAteam]
+2. Go to Command line and find location where you will clone the remote repo
+3. Clone the repository locally using one of the following method:
+
+a) ```git init```
+
+```git remote add origin git@github.com:saravukobrat/QAteam.git```
+	
+```git pull origin master```
+
+b) ```git clone git@github.com:saravukobrat/QAteam.git```
+
+(You can always make sure did you correclty set up the origin with ```git remote -v```)
+
+4. Create file DocQA.txt (```touch```)
+5. Create new branch featureB ```git checkout -b featureB```
+6. In file DocQA.txt write text ‘’Bosko” (This is only an example of text, you can type something else, but in order to present cenrtain result which you can find at the end of the page, we can try with these lines of text)
+7. Commit the change with message ‘Bosko commit’
+8. ```git push --set-upstream origin featureB```
+9. On Github you will see New pull request
+10. When you click Compare&pull request, on the right click on Assignees
+11. Add Vesna as assignee 
+12. Click Create pull request
+13. Squash and merge, and Confirm squash and merge
+14. You may or may not delete the branch featureB
+
+
+### H3 Exercise 3:
+1. Visit [https://github.com/saravukobrat/QAteam]
+2. Go to Command line and find location where you will clone the remote repo
+3. Clone the repository locally using one of the following method:
+
+a) ```git init```
+
+```git remote add origin git@github.com:saravukobrat/QAteam.git```
+	
+```git pull origin master```
+
+b) ```git clone git@github.com:saravukobrat/QAteam.git```
+
+(You can always make sure did you correclty set up the origin with ```git remote -v```)
+
+4. Create new branch featureT ```git checkout -b featureT```
+5. In file DocQA.txt write text “Tamara” for example
+6. Commit with message “Tamara commit”
+7. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureT```)
+8. On Github you will see New pull request
+9. When you click Compare&pull request, on the right click on Assignees
+10. Add Vesna as assignee 
+11. Click Create pull request
+12. Squash and merge, and Confirm squash and merge
+13. You may or may not delete the branch featureT
+
+### H3 Exercise 4:
+1. Visit [https://github.com/saravukobrat/QAteam]
+2. Go to Command line and find location where you will clone the remote repo
+3. Clone the repository locally using one of the following method:
+
+a) ```git init```
+
+```git remote add origin git@github.com:saravukobrat/QAteam.git```
+	
+```git pull origin master```
+
+b) ```git clone git@github.com:saravukobrat/QAteam.git```
+
+(You can always make sure did you correclty set up the origin with ```git remote -v```)
+
+4. Create new branch featureTij ```git checkout -b featureTij```
+5. View what't in the file DocQA.txt ```cat DocQA.txt```
+6. In file DocQA.txt write text “Tijana” for example
+7. Commit with message “Tijana commit”
+8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureTij```)
+9. On Github you will see New pull request
+10. When you click Compare&pull request, on the right click on Assignees
+11. Add Vesna as assignee 
+12. Click Create pull request
+13. Squash and merge, and Confirm squash and merge
+14. You may or may not delete the branch featureTij
+
+### H3 Excercise 5:
+1. Visit [https://github.com/saravukobrat/QAteam]
+2. Go to Command line and find location where you will clone the remote repo
+3. Clone the repository locally using one of the following method:
+
+a) ```git init```
+
+```git remote add origin git@github.com:saravukobrat/QAteam.git```
+	
+```git pull origin master```
+
+b) ```git clone git@github.com:saravukobrat/QAteam.git```
+
+(You can always make sure did you correclty set up the origin with ```git remote -v```)
+
+4. Create new branch featureR ```git checkout -b featureR```
+5. View what't in the file DocQA.txt ```cat DocQA.txt```
+6. In file DocQA.txt write text “Relja” for example
+7. Commit with message “Relja commit”
+8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureR```)
+9. On Github you will see New pull request
+10. When you click Compare&pull request, on the right click on Assignees
+11. Add Vesna as assignee 
+12. Click Create pull request
+13. Squash and merge, and Confirm squash and merge
+14. You may or may not delete the branch featureR
+
+### H3 Result:
+Go to Command line
+
+run this command ```git clone git@github.com:saravukobrat/first.git```
+
+and then ```cat DocQA.txt```
+
+We will see the following result:
+
+Bosko
+
+Tamara
+
+Tijana
+
+Relja
+
+
+## H2 Extra work
+### H3 This is extra work that all of us can do for practice purpose.
+
+1. Create a folder locally
+
+2. In that folder you can put a screenshot of Terminal history 
+
+3. Run the command ```history >> <name of the file>_githistory.txt```
+
+4. Run the command ```ls -a``` and you will see new created file
+
+5. ```cat name of the file_githistory.txt``` and make a screenshot
+
+6. Add this screenshot into the folder and push it through a new branch to remote repository
+
+7. On Github repeat stepst to squash and merge new pull request
+
+8. After this make sure is the screenshot visible
+
+
+## h2 After all make a big smile, because you did amazing work!
+
+
+
+
+
 # GitHub Zadatak 2.
 ## Pull, Push, Approve PR
 
@@ -165,166 +333,4 @@ Relja
 
 
 
-# H1 GitHub Exercise 2.
-## H2 Pull, Push, Approve PR
-
-### H3 Exercise  Sara:
-1. Create repository (repo) on Githubu named ‘QAteam’
-2. Set to be Public
-3. Go to Command line and find location where repo will be cloned (e.g Desktop, Documents)
-4. Clone the repo : ```git clone git@github.com:saravukobrat/QAteam.git```
-5. Go to the cloned repo and check what's in it with ```ls -a``` 
-6. Create and commit README.md file with commit message “First commit”
-7. ```git push```
-8. Go to Github/QAteam/settings/Manage access and add vesnaatwork as collaborator
-
-
-
-### H3 Exercise Bosko:
-1. Visit [https://github.com/saravukobrat/QAteam]
-2. Go to Command line and find location where you will clone the remote repo
-3. Clone the repository locally using one of the following method:
-
-a) ```git init```
-
-```git remote add origin git@github.com:saravukobrat/QAteam.git```
-	
-```git pull origin master```
-
-b) ```git clone git@github.com:saravukobrat/QAteam.git```
-
-(You can always make sure did you correclty set up the origin with ```git remote -v```)
-
-4. Create file DocQA.txt (```touch```)
-5. Create new branch featureB ```git checkout -b featureB```
-6. In file DocQA.txt write text ‘’Bosko”
-7. Commit the change with message ‘Bosko commit’
-8. ```git push --set-upstream origin featureB```
-9. On Github you will see New pull request
-10. When you click Compare&pull request, on the right click on Assignees
-11. Add Vesna as assignee 
-12. Click Create pull request
-13. Squash and merge, and Confirm squash and merge
-14. You may or may not delete the branch featureB
-
-
-### H3 Exercise Tamara:
-1. Visit [https://github.com/saravukobrat/QAteam]
-2. Go to Command line and find location where you will clone the remote repo
-3. Clone the repository locally using one of the following method:
-
-a) ```git init```
-
-```git remote add origin git@github.com:saravukobrat/QAteam.git```
-	
-```git pull origin master```
-
-b) ```git clone git@github.com:saravukobrat/QAteam.git```
-
-(You can always make sure did you correclty set up the origin with ```git remote -v```)
-
-4. Create new branch featureT ```git checkout -b featureT```
-5. In file DocQA.txt write text “Tamara”
-6. Commit with message “Tamara commit”
-7. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureT```)
-8. On Github you will see New pull request
-9. When you click Compare&pull request, on the right click on Assignees
-10. Add Vesna as assignee 
-11. Click Create pull request
-12. Squash and merge, and Confirm squash and merge
-13. You may or may not delete the branch featureT
-
-### H3 Exercise Tijana:
-1. Visit [https://github.com/saravukobrat/QAteam]
-2. Go to Command line and find location where you will clone the remote repo
-3. Clone the repository locally using one of the following method:
-
-a) ```git init```
-
-```git remote add origin git@github.com:saravukobrat/QAteam.git```
-	
-```git pull origin master```
-
-b) ```git clone git@github.com:saravukobrat/QAteam.git```
-
-(You can always make sure did you correclty set up the origin with ```git remote -v```)
-
-4. Create new branch featureTij ```git checkout -b featureTij```
-5. View what't in the file DocQA.txt ```cat DocQA.txt```
-6. In file DocQA.txt write text “Tijana”
-7. Commit with message “Tijana commit”
-8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureTij```)
-9. On Github you will see New pull request
-10. When you click Compare&pull request, on the right click on Assignees
-11. Add Vesna as assignee 
-12. Click Create pull request
-13. Squash and merge, and Confirm squash and merge
-14. You may or may not delete the branch featureTij
-
-### H3 Excercise Relja:
-1. Visit [https://github.com/saravukobrat/QAteam]
-2. Go to Command line and find location where you will clone the remote repo
-3. Clone the repository locally using one of the following method:
-
-a) ```git init```
-
-```git remote add origin git@github.com:saravukobrat/QAteam.git```
-	
-```git pull origin master```
-
-b) ```git clone git@github.com:saravukobrat/QAteam.git```
-
-(You can always make sure did you correclty set up the origin with ```git remote -v```)
-
-4. Create new branch featureR ```git checkout -b featureR```
-5. View what't in the file DocQA.txt ```cat DocQA.txt```
-6. In file DocQA.txt write text “Relja”
-7. Commit with message “Relja commit”
-8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureR```)
-9. On Github you will see New pull request
-10. When you click Compare&pull request, on the right click on Assignees
-11. Add Vesna as assignee 
-12. Click Create pull request
-13. Squash and merge, and Confirm squash and merge
-14. You may or may not delete the branch featureR
-
-### H3 Result:
-Go to Command line
-
-run this command ```git clone git@github.com:saravukobrat/first.git```
-
-and then ```cat DocQA.txt```
-
-We will see the following result:
-
-Bosko
-
-Tamara
-
-Tijana
-
-Relja
-
-
-## H2 Extra work
-### H3 This is extra work that all of us can do for practice purpose.
-
-1. Create a folder locally
-
-2. In that folder you can put a screenshot of Terminal history 
-
-3. Run the command ```history >> <name of the file>_githistory.txt```
-
-4. Run the command ```ls -a``` and you will see new created file
-
-5. ```cat name of the file_githistory.txt``` and make a screenshot
-
-6. Add this screenshot into the folder and push it through a new branch to remote repository
-
-7. On Github repeat stepst to squash and merge new pull request
-
-8. After this make sure is the screenshot visible
-
-
-## h2 After all make a big smile on your face, because you did amazing work!
 
