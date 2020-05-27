@@ -2,13 +2,13 @@
 ## Pull, Push, Approve PR
 
 ### Exercise  1 
-##### (This one is done, and QAteam repo has already created [https://github.com/saravukobrat/QAteam]):
+##### (This one is done, and QAteam repo has already been created [https://github.com/saravukobrat/QAteam]):
 1. Create repository (repo) on Github named ‘QAteam’
 2. Set to be Public
 3. Go to Command line and find location where repo will be cloned (e.g Desktop, Documents)
 4. Clone the repo : ```git clone git@github.com:saravukobrat/QAteam.git```
 5. Go to the cloned repo and check what's in it with ```ls -a``` 
-6. Create and commit README.md file with commit message “First commit”
+6. Create and commit README.md file with commit message “First commit” (as you can see, I've added this exercise in README.md file)
 7. ```git push```
 8. Go to Github/QAteam/settings/Manage access and add vesnaatwork as collaborator
 
@@ -23,18 +23,18 @@ a) ```git init```
 
 ```git remote add origin git@github.com:saravukobrat/QAteam.git```
 	
-```git pull origin master```
+```git pull origin master``` or
 
 b) ```git clone git@github.com:saravukobrat/QAteam.git```
 
 (You can always make sure did you correclty set up the origin with ```git remote -v```)
 
-4. Create file DocQA.txt (```touch```)
-5. Create new branch featureB ```git checkout -b featureB```
-6. In file DocQA.txt write text ‘’Bosko” (This is only an example of text, you can type something else, but in order to present certain result which you can find at the end of the page, we should add these lines of text)
-7. Commit the change with message ‘Bosko commit’
+4. Create file DocQA.txt (with command ```touch```)
+5. Create new branch 'featureB' ```git checkout -b featureB```
+6. In file DocQA.txt write text ‘’YourName” (type your name, or add any text that you want)
+7. Commit the change with message ‘YourName commit’ (commit message also may include any text, but you can write for example "YourName commit", if that is easier for you)
 8. ```git push --set-upstream origin featureB```
-9. On Github you will see New pull request
+9. Now, on Github you will see New pull request
 10. When you click Compare&pull request, on the right click on Assignees
 11. Add Vesna as assignee 
 12. Click Create pull request
@@ -51,17 +51,17 @@ a) ```git init```
 
 ```git remote add origin git@github.com:saravukobrat/QAteam.git```
 	
-```git pull origin master```
+```git pull origin master``` or
 
 b) ```git clone git@github.com:saravukobrat/QAteam.git```
 
 (You can always make sure did you correclty set up the origin with ```git remote -v```)
 
-4. Create new branch featureT ```git checkout -b featureT```
-5. In file DocQA.txt write text “Tamara” for example
-6. Commit with message “Tamara commit”
+4. Create new branch 'featureT' ```git checkout -b featureT```
+5. In file DocQA.txt write text “YourName” 
+6. Commit with message “YourName commit”
 7. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureT```)
-8. On Github you will see New pull request
+8. Now, on Github you will see New pull request
 9. When you click Compare&pull request, on the right click on Assignees
 10. Add Vesna as assignee 
 11. Click Create pull request
@@ -77,23 +77,23 @@ a) ```git init```
 
 ```git remote add origin git@github.com:saravukobrat/QAteam.git```
 	
-```git pull origin master```
+```git pull origin master``` or
 
 b) ```git clone git@github.com:saravukobrat/QAteam.git```
 
 (You can always make sure did you correclty set up the origin with ```git remote -v```)
 
-4. Create new branch featureTij ```git checkout -b featureTij```
+4. Create new branch 'featureH' ```git checkout -b featureH```
 5. View what't in the file DocQA.txt ```cat DocQA.txt```
-6. In file DocQA.txt write text “Tijana” for example
-7. Commit with message “Tijana commit”
-8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureTij```)
-9. On Github you will see New pull request
+6. In file DocQA.txt write text “YourName” 
+7. Commit with message “YourName commit”
+8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureH```)
+9. Now, on Github you will see New pull request
 10. When you click Compare&pull request, on the right click on Assignees
 11. Add Vesna as assignee 
 12. Click Create pull request
 13. Squash and merge, and Confirm squash and merge
-14. You may or may not delete the branch featureTij
+14. You may or may not delete the branch featureH
 
 ### Excercise 5:
 1. Visit [https://github.com/saravukobrat/QAteam]
@@ -104,18 +104,18 @@ a) ```git init```
 
 ```git remote add origin git@github.com:saravukobrat/QAteam.git```
 	
-```git pull origin master```
+```git pull origin master``` or
 
 b) ```git clone git@github.com:saravukobrat/QAteam.git```
 
 (You can always make sure did you correclty set up the origin with ```git remote -v```)
 
-4. Create new branch featureR ```git checkout -b featureR```
+4. Create new branch 'featureR' ```git checkout -b featureR```
 5. View what't in the file DocQA.txt ```cat DocQA.txt```
-6. In file DocQA.txt write text “Relja” for example
-7. Commit with message “Relja commit”
+6. In file DocQA.txt write text “YourName” 
+7. Commit with message “YourName commit” 
 8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureR```)
-9. On Github you will see New pull request
+9. Now, on Github you will see New pull request
 10. When you click Compare&pull request, on the right click on Assignees
 11. Add Vesna as assignee 
 12. Click Create pull request
@@ -124,7 +124,8 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 
 ### Result:
 
-##### If we write down the text from excercises, this result will appear. If we put some other text in our DocQA file, then the result will be different.
+##### Result will depend on what we write down in our DocQA.txt file. So the first person who adds his name, or some other text, this text will appear on the first line of our document. The last person who adds his name, or some other text, this text will appear on the last line of our document.
+
 
 Go to Command line
 
@@ -134,13 +135,13 @@ and then ```cat DocQA.txt```
 
 We will see the following result:
 
-Bosko
+YourName (example "Bosko")
 
-Tamara
+YourName (example "Tamara")
 
-Tijana
+YourName (example "Tijana")
 
-Relja
+YourName (example "Relja")
 
 
 ## Extra work
