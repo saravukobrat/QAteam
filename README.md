@@ -1,23 +1,23 @@
-# GitHub Exercise 2.
+# Git&GitHub Exercise 2.
 ## Pull, Push, Approve PR
 
 ### Exercise  1 
-##### (This one is done, and QAteam repo has already been created [https://github.com/saravukobrat/QAteam]):
+##### (This one is done, and QAteam repository has already been created -> [https://github.com/saravukobrat/QAteam]):
 1. Create repository (repo) on Github named ‘QAteam’
 2. Set to be Public
 3. Go to Command line and find location where repo will be cloned (e.g Desktop, Documents)
 4. Clone the repo : ```git clone git@github.com:saravukobrat/QAteam.git```
-5. Go to the cloned repo and check what's in it with ```ls -a``` 
+5. Go to the cloned repo and check what's in it with git command ```ls -a``` 
 6. Create and commit README.md file with commit message “First commit” (as you can see, I've added this exercise in README.md file)
-7. ```git push```
-8. Go to Github/QAteam/settings/Manage access and add vesnaatwork as collaborator
+7. Run ```git push```
+8. Go to Github/QAteam/settings/Manage access and add vesnaatwork as collaborator (This is important for further steps, because we will need Vesna or someone else to approve our PRs)
 
 
 
 ### Exercise 2:
 1. Visit [https://github.com/saravukobrat/QAteam]
 2. Go to Command line and find location where you will clone the remote repo
-3. Clone the repository locally using one of the following method:
+3. Clone the repository locally using one of the following methods:
 
 a) ```git init```
 
@@ -27,12 +27,12 @@ a) ```git init```
 
 b) ```git clone git@github.com:saravukobrat/QAteam.git```
 
-(You can always make sure did you correclty set up the origin with ```git remote -v```)
+(You can always make sure did you correctly set up the origin with command ```git remote -v```)
 
 4. Create file DocQA.txt (with command ```touch```)
 5. Create new branch 'featureB' ```git checkout -b featureB```
-6. In file DocQA.txt write text ‘’YourName” (type your name, or add any text that you want)
-7. Commit the change with message ‘YourName commit’ (commit message also may include any text, but you can write for example "YourName commit", if that is easier for you)
+6. In file DocQA.txt write down <your name> (type your name, or add any text that you want)
+7. Commit the change with message ‘<YourName> commit’ (commit message also may include any text, but you can write for example "YourName commit", if that is easier for you)
 8. ```git push --set-upstream origin featureB```
 9. Now, on Github you will see New pull request
 10. When you click Compare&pull request, on the right click on Assignees
@@ -58,7 +58,7 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 (You can always make sure did you correclty set up the origin with ```git remote -v```)
 
 4. Create new branch 'featureT' ```git checkout -b featureT```
-5. In file DocQA.txt write text “YourName” 
+5. In file DocQA.txt write text <your name>
 6. Commit with message “YourName commit”
 7. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureT```)
 8. Now, on Github you will see New pull request
@@ -68,63 +68,11 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 12. Squash and merge, and Confirm squash and merge
 13. You may or may not delete the branch featureT
 
-### Exercise 4:
-1. Visit [https://github.com/saravukobrat/QAteam]
-2. Go to Command line and find location where you will clone the remote repo
-3. Clone the repository locally using one of the following method:
 
-a) ```git init```
-
-```git remote add origin git@github.com:saravukobrat/QAteam.git```
-	
-```git pull origin master``` or
-
-b) ```git clone git@github.com:saravukobrat/QAteam.git```
-
-(You can always make sure did you correclty set up the origin with ```git remote -v```)
-
-4. Create new branch 'featureH' ```git checkout -b featureH```
-5. View what't in the file DocQA.txt ```cat DocQA.txt```
-6. In file DocQA.txt write text “YourName” 
-7. Commit with message “YourName commit”
-8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureH```)
-9. Now, on Github you will see New pull request
-10. When you click Compare&pull request, on the right click on Assignees
-11. Add Vesna as assignee 
-12. Click Create pull request
-13. Squash and merge, and Confirm squash and merge
-14. You may or may not delete the branch featureH
-
-### Excercise 5:
-1. Visit [https://github.com/saravukobrat/QAteam]
-2. Go to Command line and find location where you will clone the remote repo
-3. Clone the repository locally using one of the following method:
-
-a) ```git init```
-
-```git remote add origin git@github.com:saravukobrat/QAteam.git```
-	
-```git pull origin master``` or
-
-b) ```git clone git@github.com:saravukobrat/QAteam.git```
-
-(You can always make sure did you correclty set up the origin with ```git remote -v```)
-
-4. Create new branch 'featureR' ```git checkout -b featureR```
-5. View what't in the file DocQA.txt ```cat DocQA.txt```
-6. In file DocQA.txt write text “YourName” 
-7. Commit with message “YourName commit” 
-8. ```git push``` (on command line will appear this command, run it: ```git push --set-upstream origin featureR```)
-9. Now, on Github you will see New pull request
-10. When you click Compare&pull request, on the right click on Assignees
-11. Add Vesna as assignee 
-12. Click Create pull request
-13. Squash and merge, and Confirm squash and merge
-14. You may or may not delete the branch featureR
 
 ### Result:
 
-##### Result will depend on what we write down in our DocQA.txt file. So the first person who adds his name, or some other text, this text will appear on the first line of our document. The last person who adds his name, or some other text, this text will appear on the last line of our document.
+##### Result will depend on what we write down in our DocQA.txt file. So the first person who adds his name, or some other text, this text will appear on the first line in our document. The last person who adds his name, or some other text, this text will appear on the last line in our document.
 
 
 Go to Command line
