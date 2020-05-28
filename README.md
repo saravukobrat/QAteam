@@ -1,7 +1,7 @@
 # Git&GitHub Exercise 2.
 ## Pull, Push, Approve PR
 
-### Exercise  1 
+### Exercise  1 - Create repository on GitHub and clone it to your local machine
 ##### (This one is done, and QAteam repository has already been created -> [https://github.com/saravukobrat/QAteam]):
 1. Create repository (repo) on Github named ‘QAteam’
 2. Set to be Public
@@ -14,7 +14,7 @@
 
 
 
-### Exercise 2:
+### Exercise 2 - Create a file
 1. Visit [https://github.com/saravukobrat/QAteam]
 2. Go to Command line and find location where you will clone the remote repo
 3. Clone the repository locally using one of the following methods:
@@ -42,7 +42,7 @@ b) ```git clone git@github.com:saravukobrat/QAteam.git```
 14. You may or may not delete the branch featureB
 
 
-### Exercise 3:
+### Exercise 3: - Create a new branch, commit and push changes
 1. Visit [https://github.com/saravukobrat/QAteam]
 2. Go to Command line and find location where you will clone the remote repo
 3. Clone the repository locally using one of the following method:
