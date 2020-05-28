@@ -14,7 +14,7 @@
 
 
 
-### Exercise 2 - Create a file
+### Exercise 2 - Create a txt file
 1. Visit [https://github.com/saravukobrat/QAteam]
 2. Go to Command line and find location where you will clone the remote repo
 3. Clone the repository locally using one of the following methods:
